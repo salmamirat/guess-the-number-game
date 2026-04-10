@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #d7dad6, #d4acda7c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game.description {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#guess-input:focus {
+    border-color: #4facfe;
+}
+
+#submitBtn {
+    padding: 10px 15px;
+    border: none;
+    background: #5e49aa;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submitBtn:hover {
+    background: #00c6ff;
+}
+
+#feedback {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#Attempt-count {
+    font-weight: bold;
+    color: #4a36a3;
+}
+
+.history-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#guess-history {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#guess-history li {
+    background: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+#resetBtn {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #df0d0d;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#resetBtn:hover {
+    background: #ac4c4c;
+}
+
